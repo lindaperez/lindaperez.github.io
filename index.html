@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ============================================================
+       EDIT: Page title and meta description (shown in browser tab
+       and search results / social shares).
+       ============================================================ -->
+  <title>Linda R. Perez — Data Scientist</title>
+  <meta name="description" content="Linda R. Perez — M.S. Data Science candidate with a B.S. in Computer Science and software/data engineering experience. SQL, Python, machine learning, NLP, RAG, and cloud analytics." />
+  <meta name="author" content="Linda R. Perez" />
+
+  <!-- Open Graph / social preview (optional) -->
+  <meta property="og:title" content="Linda R. Perez — Data Scientist" />
+  <meta property="og:description" content="M.S. Data Science candidate focused on analytics, machine learning, applied AI, and practical impact." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Use a relative favicon so it works on project pages too -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>" />
+</head>
+<body>
+  <!-- Skip link for keyboard / screen-reader users -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============================================================
+       NAVIGATION  (sticky top bar with section anchors)
+       EDIT: nav links / brand name below.
+       ============================================================ -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__brand" href="#hero">Linda R. Perez</a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#opensource">Open Source</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#honors">Honors</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ==========================================================
+         1. HERO
+         EDIT: name, tagline, affiliation, contact, social links.
+         ========================================================== -->
+    <section id="hero" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__eyebrow">Data Scientist</p>
+          <h1 class="hero__name">Linda R. Perez</h1>
+          <p class="hero__tagline">
+            M.S. Data Science candidate with a B.S. in Computer Science and software/data engineering experience.
+          </p>
+
+          <!-- Availability badge. EDIT role/timing wording here. -->
+          <p class="hero__availability">
+            <span class="hero__dot" aria-hidden="true"></span>
+            Open to Data Science / ML <strong>internships &amp; full-time roles</strong> —
+            San Francisco Bay Area · available now
+          </p>
+          <br>
+          <ul class="hero__meta">
+            <li>M.S. in Data Science (student), Northeastern University — expected May 2027</li>
+            <li><strong>Background:</strong> B.S. Computer Science</li>
+            <li><strong>Location:</strong> San Jose, CA — San Francisco Bay Area &middot; US work authorized</li>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:lplindaperez10@gmail.com">lplindaperez10@gmail.com</a>
+              &middot;
+              <a href="mailto:perezpenaranda.l@northeastern.edu">perezpenaranda.l@northeastern.edu</a>
+            </li>
+          </ul>
+
+          <!-- Social / professional links. EDIT urls as needed. -->
+          <ul class="hero__links" aria-label="Social and professional links">
+            <li><a href="https://github.com/lindaperez" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/linda-perez-14a00b5b/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="assets/resume/Resume_2026.pdf" target="_blank" rel="noopener">Resume (PDF)</a></li>
+            <li><a href="https://resourceslindaperez.sites.northeastern.edu/about-me/" target="_blank" rel="noopener">About Me</a></li>
+          </ul>
+        </div>
+
+        <div class="hero__photo">
+          <!-- EDIT: replace this image with your photo.
+               If the image is missing, the gradient placeholder shows. -->
+          <img
+            src="assets/personal_photos/profile.jpeg"
+            alt="Portrait of Linda R. Perez"
+            width="280" height="280"
+            onerror="this.classList.add('img--placeholder'); this.removeAttribute('src'); this.setAttribute('role','img');"
+          />
+        </div>
+      </div>
+
+      <!-- Optional compact stats. EDIT numbers/labels in script.js (STATS). -->
+      <div class="container">
+        <ul class="stats" id="stats" aria-label="By the numbers"></ul>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         2. ABOUT / BIOGRAPHY
+         EDIT: bio paragraphs and interests below.
+         ========================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section__title">About</h2>
+        <div class="about">
+          <div class="about__bio">
+            <p>
+              I'm an M.S. Data Science student at Northeastern University (Silicon
+              Valley campus), with a B.S. in Computer Science and several years of
+              software and data engineering experience earlier in my career. My
+              foundation spans full-stack web development, databases, and ETL —
+              which now anchors my work in analytics, machine learning, and applied AI.
+            </p>
+            <p>
+              I began with software developer internships at Banco Agrícola and
+              Sudeban, building full-stack applications with Symfony, Liferay, PHP,
+              and SQL. As a Database Specialist at Universal Bank B.O.D I built
+              100+ SQL Server pipelines, scheduled jobs, and Cognos reports used by
+              business managers for decision-making. At VASS LATAM I designed
+              PL/SQL and Oracle scripts powering 80+ web services and built ETL
+              pipelines that cut query times and accelerated reporting, and as a
+              freelance data scraper for Neuvoo/Talent.com I maintained 20+ daily
+              production scraping scripts serving millions of users.
+            </p>
+            <p>
+              I later took a planned career break for full-time parenting while
+              continuing professional development through UC Berkeley Extension,
+              DeepLearning.AI / Stanford, LinkedIn Learning, Coursera, and
+              self-directed projects — then entered the M.S. in Data Science program
+              to go deeper into machine learning, NLP, data mining, and the full
+              data science lifecycle: cleaning, preparation, training, testing,
+              deployment, evaluation, and maintenance.
+            </p>
+            <p>
+              Today my focus is connecting my software engineering and data
+              background with applied AI — using SQL, Python, machine learning, NLP,
+              RAG systems, and cloud analytics to produce deeper analysis, build
+              faster models, and deliver higher-quality, more accountable solutions.
+              I'm looking to grow in a data science or machine-learning role where I
+              can combine software implementation, data engineering experience, and
+              modern AI to build practical, reliable systems.
+            </p>
+          </div>
+          <aside class="about__interests">
+            <h3>Interests</h3>
+            <!-- EDIT: interest tags -->
+            <ul class="tag-list">
+              <li>Machine Learning</li>
+              <li>Natural Language Processing</li>
+              <li>Data Mining</li>
+              <li>Applied AI</li>
+              <li>Data Engineering / ETL</li>
+              <li>Analytics</li>
+              <li>Data Visualization</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         3. PROJECTS  (rendered from PROJECTS array in script.js)
+         ========================================================== -->
+    <section id="projects" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <p class="section__lead">Featured work first, then my full public GitHub portfolio — filterable and paginated.</p>
+
+        <!-- Featured / flagship projects (configured in script.js PROJECT_CONFIG.featured) -->
+        <div id="featured-block">
+          <h3 class="projects-subhead">Featured</h3>
+          <div class="project-list" id="featured-grid">
+            <p class="gh__status">Loading featured projects…</p>
+          </div>
+          <nav class="pager" id="featured-pager" aria-label="Featured projects pagination" hidden></nav>
+        </div>
+
+        <!-- Full paginated list of all other public repos -->
+        <div id="allprojects-block">
+          <h3 class="projects-subhead">All projects</h3>
+          <!-- Tag filter (chips rendered from project tags in script.js) -->
+          <div class="filter-bar" id="project-filter" role="group" aria-label="Filter projects by tag"></div>
+          <div class="project-list" id="projects-grid" aria-live="polite"></div>
+          <nav class="pager" id="projects-pager" aria-label="Projects pagination" hidden></nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         3b. OPEN SOURCE / GITHUB ACTIVITY
+         Live data fetched from the public GitHub API in script.js.
+         EDIT: set GITHUB_USER in script.js.
+         ========================================================== -->
+    <section id="opensource" class="section">
+      <div class="container">
+        <h2 class="section__title">Open Source</h2>
+        <p class="section__lead">A live snapshot of my public GitHub activity — totals and the languages I work in most.</p>
+        <div class="gh" id="github-panel" aria-live="polite">
+          <p class="gh__status">Loading GitHub activity…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         4. EXPERIENCE & EDUCATION  (timeline from script.js)
+         ========================================================== -->
+    <section id="experience" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Experience &amp; Education</h2>
+        <div class="timeline-wrap">
+          <div class="timeline-col">
+            <h3 class="timeline-col__head">Experience</h3>
+            <ol class="timeline" id="experience-timeline"></ol>
+          </div>
+          <div class="timeline-col">
+            <h3 class="timeline-col__head">Education</h3>
+            <ol class="timeline" id="education-timeline"></ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         5. SKILLS  (rendered from SKILLS array in script.js)
+         ========================================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <!-- Proficiency radar (SVG rendered from SKILLS levels in script.js) -->
+        <div class="skills-viz">
+          <div class="radar-wrap" id="skills-radar" aria-hidden="true"></div>
+          <div class="skills" id="skills-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         6. CERTIFICATIONS & COURSES (from CERTIFICATIONS array in script.js)
+         A few show by default; the rest reveal with "Show all".
+         ========================================================== -->
+    <section id="certifications" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Certifications &amp; Courses</h2>
+        <p class="section__lead">Certifications and coursework, organized by year (most recent first).</p>
+        <div class="cert-groups" id="cert-list"></div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         7. HONORS / AWARDS  (rendered from HONORS array in script.js)
+         ========================================================== -->
+    <section id="honors" class="section">
+      <div class="container">
+        <h2 class="section__title">Honors &amp; Education Highlights</h2>
+        <ul class="honors" id="honors-list"></ul>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         8. RESUME  (inline PDF preview + download)
+         EDIT: file lives at assets/resume/Resume_2026.pdf
+         ========================================================== -->
+    <section id="resume" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Resume</h2>
+        <p class="section__lead">
+          Preview my full resume below, or
+          <a href="assets/resume/Resume_2026.pdf" target="_blank" rel="noopener">open it in a new tab</a>.
+        </p>
+        <!-- Image preview (renders everywhere — no PDF plugin needed).
+             Click to open the real PDF in a new tab.
+             EDIT: regenerate resume-preview.png if you update the PDF
+             (see README), or swap in your own preview image. -->
+        <a class="resume-embed" href="assets/resume/Resume_2026.pdf" target="_blank" rel="noopener" aria-label="Open full resume PDF in a new tab">
+          <img class="resume-preview" src="assets/resume/resume-preview.png"
+               alt="Preview of Linda R. Perez's one-page resume" loading="lazy" />
+        </a>
+        <p class="resume-actions">
+          <a class="btn btn--ghost" href="assets/resume/Resume_2026.pdf" target="_blank" rel="noopener">Open PDF in new tab</a>
+          <a class="btn btn--ghost" href="assets/resume/Resume_2026.pdf" download>Download PDF</a>
+        </p>
+      </div>
+    </section>
+    <!-- ==========================================================
+         9. CONTACT / CALL TO ACTION
+         EDIT: role/timing wording and contact links.
+         ========================================================== -->
+    <section id="contact" class="section cta">
+      <div class="container cta__inner">
+        <h2 class="section__title">Let's connect</h2>
+        <p class="cta__lead">
+          I'm seeking a <strong>Data Science / Machine Learning role — internship or full-time</strong>
+          in the <strong>San Francisco Bay Area</strong>. Available now and US work authorized.
+          If you're hiring or just want to talk shop, I'd love to hear from you.
+        </p>
+        <div class="cta__links">
+          <a class="btn btn--solid" href="mailto:lplindaperez10@gmail.com">Email me</a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/linda-perez-14a00b5b/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn--ghost" href="assets/resume/Resume_2026.pdf" target="_blank" rel="noopener">Résumé</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================
+       FOOTER
+       ========================================================== -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>&copy; <span id="year"></span> Linda R. Perez</p>
+      <p>
+        Last updated <span id="last-updated"></span> &middot;
+        <!-- EDIT: link to your repository -->
+        <a href="https://github.com/lindaperez" target="_blank" rel="noopener">Source on GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
